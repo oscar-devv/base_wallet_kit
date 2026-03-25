@@ -1,0 +1,62 @@
+name: base_wallet_kit
+description: Base library with Clean Architecture + Riverpod for Flutter wallet/fintech apps. Includes HTTP client, secure storage, auth, migration manager, and reusable widgets.
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # HTTP
+  dio: ^5.7.0
+
+  # State management
+  flutter_riverpod: ^3.0.0
+  riverpod: ^3.2.1
+
+  # Navigation
+  go_router: ^17.0.0
+
+  # Storage
+  flutter_secure_storage: ^10.0.0
+  shared_preferences: ^2.3.3
+
+  # Firebase
+  firebase_crashlytics: ^5.0.1
+  firebase_remote_config: ^6.0.1
+
+  # UI
+  flutter_screenutil: ^5.9.3
+  google_fonts: ^8.0.1
+  lottie: ^3.2.0
+  flutter_svg: ^2.0.9
+
+  # Device & permissions
+  device_info_plus: ^12.1.0
+  geolocator: ^14.0.2
+  permission_handler: ^12.0.1
+  package_info_plus: ^9.0.0
+  local_auth: ^3.0.0
+  connectivity_plus: ^7.0.0
+
+  # Updates
+  new_version_plus: ^0.1.0
+  in_app_update: ^4.2.5
+  url_launcher: ^6.2.5
+
+  # Utils
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
