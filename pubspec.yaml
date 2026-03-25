@@ -1,6 +1,9 @@
 name: base_wallet_kit
 description: Base library with Clean Architecture + Riverpod for Flutter wallet/fintech apps. Includes HTTP client, secure storage, auth, migration manager, and reusable widgets.
 version: 1.0.0
+homepage: https://github.com/oscar-devv/base_wallet_kit
+repository: https://github.com/oscar-devv/base_wallet_kit
+issue_tracker: https://github.com/oscar-devv/base_wallet_kit/issues
 
 environment:
   sdk: ^3.5.3

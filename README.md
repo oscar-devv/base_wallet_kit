@@ -174,8 +174,9 @@ await SecureCredentials.clear();
 
 ## Limpieza de Keychain en primera instalación iOS
 
-El Keychain de iOS persiste datos incluso después de desinstalar la app.
-Para limpiar residuos en reinstalaciones, agrega esto al inicio de tu login screen:
+El Keychain de iOS persiste datos **incluso después de desinstalar la app**, a diferencia de Android donde `flutter_secure_storage` se borra automáticamente al desinstalar. Esto puede dejar credenciales residuales en reinstalaciones.
+
+Para limpiar esos residuos, agrega esto al inicio de tu login screen:
 
 ```dart
 if (Platform.isIOS) {
@@ -187,3 +188,7 @@ if (Platform.isIOS) {
   }
 }
 ```
+
+El flag `app_initialized` se guarda en SharedPreferences, que **sí se borra al desinstalar en ambas plataformas**. Por eso este bloque solo corre en primera instalación o reinstalación, nunca en actualizaciones normales.
+
+**Android no necesita este patrón** — el SO limpia el almacenamiento seguro automáticamente al desinstalar.
