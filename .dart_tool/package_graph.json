@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "base_wallet_kit",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "dependencies": [
         "connectivity_plus",
         "device_info_plus",
