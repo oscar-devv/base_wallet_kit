@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "base_wallet_kit",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "dependencies": [
         "connectivity_plus",
         "device_info_plus",
@@ -21,6 +21,7 @@
         "geolocator",
         "go_router",
         "google_fonts",
+        "image",
         "in_app_update",
         "intl",
         "local_auth",
@@ -60,6 +61,15 @@
         "stream_channel",
         "test_api",
         "vector_math"
+      ]
+    },
+    {
+      "name": "image",
+      "version": "4.8.0",
+      "dependencies": [
+        "archive",
+        "meta",
+        "xml"
       ]
     },
     {
@@ -429,6 +439,23 @@
       ]
     },
     {
+      "name": "xml",
+      "version": "6.6.1",
+      "dependencies": [
+        "collection",
+        "meta",
+        "petitparser"
+      ]
+    },
+    {
+      "name": "archive",
+      "version": "4.0.9",
+      "dependencies": [
+        "path",
+        "posix"
+      ]
+    },
+    {
       "name": "url_launcher_windows",
       "version": "3.1.5",
       "dependencies": [
@@ -731,14 +758,6 @@
         "flutter",
         "http",
         "vector_graphics_codec"
-      ]
-    },
-    {
-      "name": "archive",
-      "version": "4.0.9",
-      "dependencies": [
-        "path",
-        "posix"
       ]
     },
     {
@@ -1063,6 +1082,23 @@
       ]
     },
     {
+      "name": "petitparser",
+      "version": "7.0.2",
+      "dependencies": [
+        "collection",
+        "meta"
+      ]
+    },
+    {
+      "name": "posix",
+      "version": "6.5.0",
+      "dependencies": [
+        "ffi",
+        "meta",
+        "path"
+      ]
+    },
+    {
       "name": "plugin_platform_interface",
       "version": "2.1.8",
       "dependencies": [
@@ -1111,15 +1147,6 @@
       ]
     },
     {
-      "name": "xml",
-      "version": "6.6.1",
-      "dependencies": [
-        "collection",
-        "meta",
-        "petitparser"
-      ]
-    },
-    {
       "name": "path_parsing",
       "version": "1.1.0",
       "dependencies": [
@@ -1131,15 +1158,6 @@
       "name": "args",
       "version": "2.7.0",
       "dependencies": []
-    },
-    {
-      "name": "posix",
-      "version": "6.5.0",
-      "dependencies": [
-        "ffi",
-        "meta",
-        "path"
-      ]
     },
     {
       "name": "path_provider_windows",
@@ -1401,14 +1419,6 @@
       "name": "fixnum",
       "version": "1.1.1",
       "dependencies": []
-    },
-    {
-      "name": "petitparser",
-      "version": "7.0.2",
-      "dependencies": [
-        "collection",
-        "meta"
-      ]
     },
     {
       "name": "platform",

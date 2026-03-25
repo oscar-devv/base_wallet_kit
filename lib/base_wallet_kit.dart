@@ -33,22 +33,32 @@ export 'src/providers/riverpodBack/base_account_provider.dart';
 export 'src/services/api_dio_factory.dart';
 export 'src/services/api_url_manager.dart';
 export 'src/services/crashlytics_dio_interceptor.dart';
+export 'src/services/device_info_service.dart';
 export 'src/services/dynamic_base_url_interceptor.dart';
+export 'src/services/lazy_location_service.dart';
+export 'src/services/location_service.dart';
+export 'src/services/mandatory_permissions_service.dart';
 export 'src/services/navigation_state_service.dart';
 export 'src/services/remote_config_service.dart';
 export 'src/services/secure_token_storage.dart';
 export 'src/services/token_expired_interceptor.dart';
+export 'src/services/update_service.dart';
 
 // ─── Utils ────────────────────────────────────────────────────────────────────
+export 'src/utils/address_parser_service.dart';
+export 'src/utils/background_operation_manager.dart';
 export 'src/utils/biometric_preferences.dart';
 export 'src/utils/curp_normalizer.dart';
 export 'src/utils/ios_update_checker.dart';
+export 'src/utils/isolate_processing_service.dart';
 export 'src/utils/migration_manager.dart';
 export 'src/utils/phone_number_utils.dart';
+export 'src/utils/rating_preferences.dart';
 export 'src/utils/secure_credentials.dart';
 
 // ─── Widgets ──────────────────────────────────────────────────────────────────
 export 'src/widgets/custom_alert.dart';
 export 'src/widgets/custom_appbar.dart';
 export 'src/widgets/permission_guard.dart';
+export 'src/widgets/permissions_blocking_screen.dart';
 export 'src/widgets/rating_dialog.dart';

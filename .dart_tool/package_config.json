@@ -398,6 +398,12 @@
       "languageVersion": "3.4"
     },
     {
+      "name": "image",
+      "rootUri": "file:///Users/mobile/.pub-cache/hosted/pub.dev/image-4.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "in_app_update",
       "rootUri": "file:///Users/mobile/.pub-cache/hosted/pub.dev/in_app_update-4.2.5",
       "packageUri": "lib/",

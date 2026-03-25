@@ -1,3 +1,21 @@
+## 1.0.2
+
+* Added LocationService and LazyLocationService for GPS access with CDMX fallback.
+* Added MandatoryPermissionsService for location permission dialogs and blocking screen.
+* Added PermissionsBlockingScreen widget shown when permissions are permanently denied.
+* Added DeviceInfoService for Android/iOS device info, device ID and physical device check.
+* Added UpdateService with configurable MethodChannel for Android in-app updates.
+* Added AddressParserService (ParsedAddress model) for structured INE/OCR address parsing.
+* Added BackgroundOperationManager with retry logic for async background operations.
+* Added RatingPreferences for persisting app rating prompt state.
+* Added IsolateProcessingService for video/image/file Base64 encoding via compute().
+* Added `image` package dependency for image processing in isolates.
+
+## 1.0.1
+
+* Added repository, homepage and issue_tracker URLs to pubspec.yaml.
+* Fixed pub.dev dry-run warnings: version constraints, unused imports and fields.
+
 ## 1.0.0
 
 * Initial release.
