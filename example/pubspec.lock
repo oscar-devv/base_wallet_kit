@@ -45,10 +45,17 @@ packages:
     dependency: transitive
     description:
       name: async
-      sha256: "758e6d74e971c3e5aceb4110bfd6698efc7f501675bcfe0c775459a8140750eb"
+      sha256: e2eb0491ba5ddb6177742d2da23904574082139b07c1e33b8503b9f46f3e1a37
       url: "https://pub.dev"
     source: hosted
-    version: "2.13.0"
+    version: "2.13.1"
+  base_wallet_kit:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "1.0.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -98,7 +105,7 @@ packages:
     source: hosted
     version: "1.19.1"
   connectivity_plus:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: connectivity_plus
       sha256: "33bae12a398f841c6cda09d1064212957265869104c478e5ad51e2fb26c3973c"
@@ -146,13 +153,13 @@ packages:
     source: hosted
     version: "0.7.12"
   device_info_plus:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: device_info_plus
-      sha256: a7fd703482b391a87d60b6061d04dfdeab07826b96f9abd8f5ed98068acc0074
+      sha256: "4df8babf73058181227e18b08e6ea3520cf5fc5d796888d33b7cb0f33f984b7c"
       url: "https://pub.dev"
     source: hosted
-    version: "10.1.2"
+    version: "12.3.0"
   device_info_plus_platform_interface:
     dependency: transitive
     description:
@@ -162,7 +169,7 @@ packages:
     source: hosted
     version: "7.0.3"
   dio:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: dio
       sha256: aff32c08f92787a557dd5c0145ac91536481831a01b4648136373cddb0e64f8c
@@ -226,7 +233,7 @@ packages:
     source: hosted
     version: "3.5.1"
   firebase_crashlytics:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: firebase_crashlytics
       sha256: "9f9831b4ca1282421f4387181bfb8e6c4ee82049e616e433272c4fd13dfd5484"
@@ -242,7 +249,7 @@ packages:
     source: hosted
     version: "3.8.19"
   firebase_remote_config:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: firebase_remote_config
       sha256: "823c9017277daa6f754e6d7389de8fb4b96723894fca3f42cf0860019e6a4053"
@@ -278,16 +285,8 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_lints:
-    dependency: "direct dev"
-    description:
-      name: flutter_lints
-      sha256: "3105dc8492f6183fb076ccf1f351ac3d60564bff92e20bfc4af9cc1651f4e7e1"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.0.0"
   flutter_localizations:
-    dependency: "direct main"
+    dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -300,7 +299,7 @@ packages:
     source: hosted
     version: "2.0.34"
   flutter_riverpod:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_riverpod
       sha256: "4e166be88e1dbbaa34a280bdb744aeae73b7ef25fdf8db7a3bb776760a3648e2"
@@ -308,7 +307,7 @@ packages:
     source: hosted
     version: "3.3.1"
   flutter_screenutil:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_screenutil
       sha256: "8239210dd68bee6b0577aa4a090890342d04a136ce1c81f98ee513fc0ce891de"
@@ -316,7 +315,7 @@ packages:
     source: hosted
     version: "5.9.3"
   flutter_secure_storage:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_secure_storage
       sha256: da922f2aab2d733db7e011a6bcc4a825b844892d4edd6df83ff156b09a9b2e40
@@ -364,7 +363,7 @@ packages:
     source: hosted
     version: "4.1.0"
   flutter_svg:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: flutter_svg
       sha256: "1ded017b39c8e15c8948ea855070a5ff8ff8b3d5e83f3446e02d6bb12add7ad9"
@@ -372,7 +371,7 @@ packages:
     source: hosted
     version: "2.2.4"
   flutter_test:
-    dependency: "direct dev"
+    dependency: transitive
     description: flutter
     source: sdk
     version: "0.0.0"
@@ -398,7 +397,7 @@ packages:
     source: hosted
     version: "0.1.1"
   geolocator:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: geolocator
       sha256: "79939537046c9025be47ec645f35c8090ecadb6fe98eba146a0d25e8c1357516"
@@ -462,7 +461,7 @@ packages:
     source: hosted
     version: "2.1.3"
   go_router:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: go_router
       sha256: "7974313e217a7771557add6ff2238acb63f635317c35fa590d348fb238f00896"
@@ -470,7 +469,7 @@ packages:
     source: hosted
     version: "17.1.0"
   google_fonts:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: google_fonts
       sha256: db9df7a5898d894eeda4c78143f35c30a243558be439518972366880b80bf88e
@@ -518,7 +517,7 @@ packages:
     source: hosted
     version: "4.1.2"
   image:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: image
       sha256: f9881ff4998044947ec38d098bc7c8316ae1186fa786eddffdb867b9bc94dfce
@@ -526,7 +525,7 @@ packages:
     source: hosted
     version: "4.8.0"
   in_app_update:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: in_app_update
       sha256: "9924a3efe592e1c0ec89dda3683b3cfec3d4cd02d908e6de00c24b759038ddb1"
@@ -534,7 +533,7 @@ packages:
     source: hosted
     version: "4.2.5"
   intl:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: intl
       sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"
@@ -573,16 +572,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.2"
-  lints:
-    dependency: transitive
-    description:
-      name: lints
-      sha256: "12f842a479589fea194fe5c5a3095abc7be0c1f2ddfa9a0e76aed1dbd26a87df"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.1.0"
   local_auth:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: local_auth
       sha256: ae6f382f638108c6becd134318d7c3f0a93875383a54010f61d7c97ac05d5137
@@ -630,7 +621,7 @@ packages:
     source: hosted
     version: "1.3.0"
   lottie:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: lottie
       sha256: "8ae0be46dbd9e19641791dc12ee480d34e1fd3f84c749adc05f3ad9342b71b95"
@@ -678,13 +669,13 @@ packages:
     source: hosted
     version: "0.17.6"
   new_version_plus:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: new_version_plus
-      sha256: "5a8ff14d7b93c60e7a42e1dd3e9fc3290fd76864faa180cd649615769d19b4e9"
+      sha256: "7b72a14997fa82f257f5b5f5c127e06160306f83bf51087d8fa4ff880a74e363"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "0.1.2"
   nm:
     dependency: transitive
     description:
@@ -718,7 +709,7 @@ packages:
     source: hosted
     version: "2.2.0"
   package_info_plus:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: package_info_plus
       sha256: f69da0d3189a4b4ceaeb1a3defb0f329b3b352517f52bed4290f83d4f06bc08d
@@ -798,7 +789,7 @@ packages:
     source: hosted
     version: "2.3.0"
   permission_handler:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: permission_handler
       sha256: bc917da36261b00137bbc8896bf1482169cd76f866282368948f032c8c1caae1
@@ -894,7 +885,7 @@ packages:
     source: hosted
     version: "2.2.0"
   riverpod:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: riverpod
       sha256: "8c22216be8ad3ef2b44af3a329693558c98eca7b8bd4ef495c92db0bba279f83"
@@ -902,7 +893,7 @@ packages:
     source: hosted
     version: "3.2.1"
   shared_preferences:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: shared_preferences
       sha256: c3025c5534b01739267eb7d76959bbc25a6d10f6988e1c2a3036940133dd10bf
@@ -1091,7 +1082,7 @@ packages:
     source: hosted
     version: "1.4.0"
   url_launcher:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: url_launcher
       sha256: f6a7e5c4835bb4e3026a04793a4199ca2d14c739ec378fdfe23fc8075d0439f8
@@ -1254,10 +1245,10 @@ packages:
     dependency: transitive
     description:
       name: win32_registry
-      sha256: "21ec76dfc731550fd3e2ce7a33a9ea90b828fdf19a5c3bcf556fa992cfa99852"
+      sha256: "6f1b564492d0147b330dd794fee8f512cec4977957f310f9951b5f9d83618dae"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.5"
+    version: "2.1.0"
   xdg_directories:
     dependency: transitive
     description:

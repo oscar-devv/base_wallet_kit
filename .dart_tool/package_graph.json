@@ -5,7 +5,7 @@
   "packages": [
     {
       "name": "base_wallet_kit",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "dependencies": [
         "connectivity_plus",
         "device_info_plus",
@@ -104,8 +104,9 @@
     },
     {
       "name": "new_version_plus",
-      "version": "0.1.2",
+      "version": "1.0.1",
       "dependencies": [
+        "device_info_plus",
         "flutter",
         "http",
         "package_info_plus",
@@ -180,7 +181,7 @@
     },
     {
       "name": "device_info_plus",
-      "version": "12.3.0",
+      "version": "10.1.2",
       "dependencies": [
         "device_info_plus_platform_interface",
         "ffi",
@@ -710,10 +711,9 @@
     },
     {
       "name": "win32_registry",
-      "version": "2.1.0",
+      "version": "1.1.5",
       "dependencies": [
         "ffi",
-        "meta",
         "win32"
       ]
     },

@@ -1,0 +1,17 @@
+name: base_wallet_kit_example
+description: Example app demonstrating base_wallet_kit usage.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.3
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  base_wallet_kit:
+    path: ../
+
+flutter:
+  uses-material-design: true

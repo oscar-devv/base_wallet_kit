@@ -4,7 +4,16 @@ import 'package:flutter/foundation.dart';
 
 /// Servicio para parsear direcciones de INE de forma robusta.
 /// Combina datos de KYC y OCR local, extrayendo componentes estructurados.
+///
+/// Todas las operaciones son estáticas; no es necesario instanciar esta clase.
 class AddressParserService {
+  /// Crea una instancia de [AddressParserService].
+  ///
+  /// No es necesario instanciar esta clase directamente ya que todos sus
+  /// métodos son estáticos. Se expone el constructor para compatibilidad
+  /// con la API pública del paquete.
+  AddressParserService();
+
   /// Parsea una dirección completa y extrae sus componentes estructurados.
   ///
   /// Prioridad:

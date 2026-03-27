@@ -5,7 +5,17 @@ import 'token_expired_interceptor.dart';
 
 /// Factory para crear instancias de [Dio] pre-configuradas con los interceptores
 /// estándar: URL dinámica, expiración de token y Crashlytics.
+///
+/// Todos los métodos son estáticos; utiliza [ApiDioFactory.create] o
+/// [ApiDioFactory.createSimple] directamente sin necesidad de instanciar.
 class ApiDioFactory {
+  /// Crea una instancia de [ApiDioFactory].
+  ///
+  /// No es necesario instanciar esta clase directamente ya que todos sus
+  /// métodos son estáticos. Se expone el constructor para compatibilidad
+  /// con la API pública del paquete.
+  ApiDioFactory();
+
   /// Crea un Dio listo para usar.
   /// El baseUrl es manejado dinámicamente por [DynamicBaseUrlInterceptor].
   ///
