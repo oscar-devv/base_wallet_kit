@@ -1,4 +1,4 @@
-## 1.0.2
+## 1.0.3
 
 * Added LocationService and LazyLocationService for GPS access with CDMX fallback.
 * Added MandatoryPermissionsService for location permission dialogs and blocking screen.
